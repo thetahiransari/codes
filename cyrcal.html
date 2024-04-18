@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            margin-top: 10vw;
+            height: 600px;
+            width: 600px;
+            border-radius: 50%;
+            background: conic-gradient(red, blue, green );
+            animation: round 2sc linear infinite;
+            border: 4px rgb(12, 22, 16);
+
+        }@keyframes round{
+            100%{
+                rotate: 360deg ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+</body>
+
+</html>
+<!-- It looks like you're trying to apply a conic gradient to the background of a box using CSS. However, there seems to be a small mistake in your code. The correct syntax for a conic gradient is `conic-gradient()`, not `conic gradient()`. Here's the corrected code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin-top: 10vw;
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+     <div class="box">
+
+     </div>
+</body>
+</html>
+```
+
+Now, the conic gradient should be applied correctly, transitioning from red to blue to green in a circular manner within the box. -->
