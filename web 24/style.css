@@ -1,0 +1,13 @@
+.box2 {
+    width: 20vw;
+    height:10vw;
+    border:4px solid blue;
+    /* overflow: scroll; */
+    /* overflow: auto; *
+    /* over */
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+    overflow-y: scroll
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}

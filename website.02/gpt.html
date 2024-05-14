@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic webpage for travel</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            height: 100vh;
+            background-image: url(pexels-photo-14674140.jpeg);
+            background-size: cover;
+            font-family: fantasy;
+            color: rgb(253, 251, 246);
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            color: rgb(255, 254, 254);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-decoration-color: rgb(236, 230, 230);
+            text-shadow: 10px;
+        }
+
+        .logo {
+            font: 5px;
+            letter-spacing: 2px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: rgb(181, 166, 140);
+            padding: 7px 20px;
+            font-size: 20px;
+        }
+
+        .reger a {
+            padding: 3px;
+            color: wheat;
+            text-decoration: double;
+        }
+
+        .reger {
+            color: wheat;
+            background: transparent;
+            border: 1px solid rgb(162, 183, 187);
+            border-radius: 5px;
+        }
+
+        .header-text {
+            max-width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: rgb(20, 126, 219);
+        }
+
+        
+        .menu a::before {
+            content: '';
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            border-bottom: 2px solid indianred;
+            transition: 0.4s linear;
+        }
+        
+        .menu a:hover::before {
+            width: 90%;
+            position: absolute;
+        } 
+
+        .header-text span {
+            letter-spacing: 5px
+        }
+
+        .header-text h1 {
+            letter-spacing: 4px;
+            color: rgba(255, 255, 255, 0.797);
+            font-size: 2.4em
+        }
+
+        .header-text span {
+            color: rgb(239, 239, 247);
+            letter-spacing: 1em;
+        }
+
+        .header-text a {
+            text-decoration: none;
+            background: indianred;
+            color: white;
+            letter-spacing: 5px;
+        }
+
+        .reger a::hover {
+            background-color: rgb(170, 34, 34);
+            border: 2px solid wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                JetSet Explorer
+            </div>
+            <div class="menu">
+                <a href=""> Home</a>
+                <a href="hill.html"> Hill stations </a>
+                <a href=""> Best offers </a>
+                <a href=""> Our Sites</a>
+                <a href=""> Contact Us</a>
+                <a href=""> About Us</a>
+            </div>
+            <div class="reger">
+                <a href="C:\web development\github\All input types in HTML\index.html">Register</a>
+            </div>
+        </nav>
+    </header>
+    <section class="header-text">
+        <span> Enjoy</span>
+        <h1> Discover the World, Your Way!</h1>
+        <br>
+        <a href="">Reserve Your Journey Now!</a>
+    </section>
+</body>
+
+</html>

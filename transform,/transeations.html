@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contianer {
+            background-color: black;
+            height: 50dvh;
+            width: 40vh;
+        }
+
+        .box {
+            background-color: rgb(168, 29, 29);
+            height: 5dvh;
+            width: 4vh;
+            transition-property: transform;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s;
+        }
+
+        .translete {
+            transform: translatex(10vh) translateY(10vh);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contianer">
+        <div class="box translete"></div>
+    </div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Corrected viewport meta tag -->
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: black;
+            height: 50vh;
+            /* Changed 50dvh to 50vh */
+            width: 40vh;
+        }
+
+        .box {
+            background-color: rgb(168, 29, 29);
+            height: 5vh;
+            /* Changed 5dvh to 5vh */
+            width: 4vh;
+            transition-property: all;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s;
+        }
+
+        .translate {
+            transform: translateX(10vh) translateY(10vh);
+            background-color: aquamarine;
+            /* Corrected the class name and added 'X' to translate */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> <!-- Corrected class name -->
+        <div class="box translate"></div> <!-- Corrected class name -->
+    </div>
+</body>
+
+</html>

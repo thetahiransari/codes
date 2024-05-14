@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Possition </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            height: 135px   ;
+            width: 500px;
+            padding: 15px;
+            margin: 3px;
+            border: 15px solid black;
+            color: rgba(85, 61, 236, 0.306);
+
+        }
+        .perents {
+            padding: 40px;
+            margin: 50px;
+            border: 1px solid blue;
+        }
+        .box1{
+            background-color: blanchedalmond;
+            /* position:absolute ;
+            top: 0%;
+            left: 5%; */
+        }
+        .box2{
+            top: 0%;
+            position: sticky;
+            background-color: brown;
+            top: 0;
+            hight: 0.1px;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+
+        }
+        .box3{
+            /* background-color: crimson;
+            position: fixed;
+            bottom: 0px;
+            left: 10px;
+        } */
+        .box4{
+            background-color: darkgrey;
+        }
+
+    </style>
+</head> 
+<body>   
+    <div class="perents">
+          <div class="box box1"></div>
+          <div class="box box2"></div>
+          <div class="box box3"></div>
+          <div class="box box4"></div>
+    </div>
+</body>
+</html>
